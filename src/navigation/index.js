@@ -1,10 +1,9 @@
 import { createSwitchNavigator, createStackNavigator, createBottomTabNavigator, TabNavigator } from 'react-navigation';
-import { LoginScreen, HomeScreen } from '../screens';
+import { SplashScreen } from '../screens';
 
 export default createStackNavigator(
     {
-        Login: LoginScreen,
-        Home: HomeScreen,
+        Splash: SplashScreen,
     },
     {
         headerMode: 'none'
